@@ -1,7 +1,16 @@
-import logo from './logo.svg';
+import logo from './assets/logo.svg';
 import './App.css';
+import AboutMe from './components/about';
 
 function App() {
+  return (
+    <main className="App">
+      <AboutMe/>
+    </main>
+  );
+}
+
+function oldApp() {
   return (
     <div className="App">
       <header className="App-header">
@@ -19,7 +28,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
 export default App;
