@@ -1,16 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  line-height: normal;
 }
 
 .App-header {
@@ -24,19 +14,23 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-* {
+/* * {
   font-family: 'Press Start 2P', cursive;
+} */
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 0.7em;
+  background: #282c34;
+}
+body::-webkit-scrollbar-thumb {
+  background: transparent;
+  height:30px;
+}
+
+body::-webkit-scrollbar-track-piece
+{
+   display:none;
 }
