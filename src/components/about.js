@@ -50,8 +50,8 @@ export default function AboutMe(props) {
                 </div>
             </div>
             <div className='AboutCols'>
-                <a href='#' type="button" class="btn btn-error AboutButtons">Timeline</a>
-                <a href='#' type="button" class="btn btn-primary AboutButtons">Projects</a>
+                <a href='/#' type="button" class="btn btn-error AboutButtons">Timeline</a>
+                <a href='/#' type="button" class="btn btn-primary AboutButtons">Projects</a>
                 <a href='#contact' onClick={playPokemon} type="button" class="btn btn-default AboutButtons">Reach Me!</a>
                 <audio ref={pokeAudio} src={pokemon}/>
             </div>
