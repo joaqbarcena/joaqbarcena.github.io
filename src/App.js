@@ -1,4 +1,3 @@
-import logo from './assets/logo.svg';
 import './App.css';
 import AboutMe from './components/about';
 import ReachMe from './components/contact';
