@@ -1,0 +1,45 @@
+.TimelineContainer {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    box-sizing: content-box;
+    padding-top: 50px;
+}
+
+.TimelineWidth {
+    max-width: 1024px;
+    width: 90%;
+    margin-top: 50px;
+}
+
+.TimelineCardHeaderFontSize {
+    font-size: calc(10px + 1.5vmin)
+}
+
+.TimelineCardHeaderContainer {
+    display: flex;
+    width: 100%;
+    color: lightblue;
+    padding: 0px 10px 0px 10px;
+}
+
+.TimelineCardHeaderTitleContainer {
+    display: flex;
+    width: 80%;
+    padding-right: 5px;
+}
+
+.TimelineCardHeaderYearContainer { 
+    text-align: end;
+    color: yellow;
+    width: 45%;
+}
+
+.TimelineCardDescriptionFontSize {
+    font-size: calc(10px + 1vmin)
+}
