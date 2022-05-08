@@ -1,6 +1,7 @@
 import './App.css';
 import AboutMe from './components/about';
 import ReachMe from './components/contact';
+import Timeline from './components/timeline';
 
 function App() {
   const name = 'Joaquin Barcena'
@@ -31,9 +32,37 @@ function App() {
     mail: 'joaqbarcena@gmail.com',
   }
 
+  const events = [
+    {
+      title: "Started Bs. in Computer Science",
+      year: "2016",
+      at: "UNC - FaMAFyC",
+      description: "lorem impsum dolro sir amet sdlfjasdlfdslkfjdslkjsdlkfjlkfjdlskfjdsalkjfdaslkfdlkfjdslkfasjd"
+    },
+    {
+      title: "Software Developer",
+      year: "2016",
+      at: "Nortid",
+      description: "lorem impsum dolro sir amet sdlfjasdlfdslkfjdslkjsdlkfjlkfjdlskfjdsalkjfdaslkfdlkfjdslkfasjd"
+    },
+    {
+      title: "Software Developer",
+      year: "2016 (July)",
+      at: "InsideIT S.A.",
+      description: "lorem impsum dolro sir amet sdlfjasdlfdslkfjdslkjsdlkfjlkfjdlskfjdsalkjfdaslkfdlkfjdslkfasjd"
+    },
+    {
+      title: "Android Engineer",
+      year: '2020 (October)',
+      at: "MercadoLibre",
+      description: "lorem impsum dolro sir amet sdlfjasdlfdslkfjdslkjsdlkfjlkfjdlskfjdsalkjfdaslkfdlkfjdslkfasjd"
+    },
+  ]
+
   return (
     <main className="App">
       <AboutMe name={name} skills={skills}/>
+      <Timeline events={events}/>
       <ReachMe links={contactLinks}/>
     </main>
   );
