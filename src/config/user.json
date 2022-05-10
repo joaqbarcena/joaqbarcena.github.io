@@ -1,6 +1,5 @@
 {
     "name": "Joaquin Barcena",
-    
     "skills": [
         {
             "backgroundColor": "#006E7F",
@@ -71,37 +70,65 @@
             "title": "Apache Pulsar"
         }
     ],
-    
     "contactLinks": {
         "gh": "joaqbarcena",
         "In": "joaqbarcena",
         "mail": "joaqbarcena@gmail.com"
     },
-
     "events": [
         {
             "title": "Started Bs. in Computer Science",
             "year": "2016",
             "at": "UNC - FaMAFyC",
-            "description": "lorem impsum dolro sir amet sdlfjasdlfdslkfjdslkjsdlkfjlkfjdlskfjdsalkjfdaslkfdlkfjdslkfasjd"
+            "description": [
+                [
+                    "Data Structures and Algorithms 1 & 2",
+                    "Linear Algebra",
+                    "Discrete mathematics 1 & 2"
+                ]
+            ]
         },
         {
             "title": "Software Developer",
             "year": "2016",
             "at": "Nortid",
-            "description": "lorem impsum dolro sir amet sdlfjasdlfdslkfjdslkjsdlkfjlkfjdlskfjdsalkjfdaslkfdlkfjdslkfasjd"
+            "description": "Mostly here i have used **Java** & **Swing** for and ABM POS Software also here i developed an Android App published to PlayStore that saves contacts by scanning a QR (VCard) - Qontacto"
         },
         {
             "title": "Software Developer",
             "year": "2016 (July)",
             "at": "InsideIT S.A.",
-            "description": "lorem impsum dolro sir amet sdlfjasdlfdslkfjdslkjsdlkfjlkfjdlskfjdsalkjfdaslkfdlkfjdslkfasjd"
+            "description": [
+                "Here i learned the most of my carreer path, since it was only me & my boss (also a good friend), Some of the stacks & techs we used",
+                "**GPS Tracking Client Android App:** [ Kotlin, Java, C++, Google Play Console ]",
+                "**ServerSide Apps (GPS Tracking):** J2EE -> Spring + RabbitMQ, **AWS EC2, IoT, DynamoDB, ElasticBeanstalk**, NodeJS, MySQL, Nginx",
+                "**GPS Device:** C-99, OpenWRT (GL-MiFi), Arduino (ESP8266-32)",
+                "**Scripting for Monitoring & Releasing:** Git Hooks, GH Actions, Python, Bash, Cron",
+                "**Reverse Engineering**: ByteCode decompiling & rewrite, Api discovery"
+            ]
         },
         {
-            "title": "Android Engineer",
+            "title": "Software Developer Freelance",
+            "year": "2020 (January)",
+            "at": "Upwork",
+            "description": [
+                "Meantime i was working on-site, i tried to offer my dev services as a Freelance",
+                "**Python webscraping**: Firsts jobs were scraping ecommerces like Amazon/eBay using Python scrapy, i didn't like it so much, but it was easy and highly demmanded",
+                "**Remote access for Android devices through a backoffice**: After that i managed to start working with a client regularly by creating a silent background (API <26) to have remote access (like shell) with extra commands like getting location, mic-audio in real time, mic-audio offline, backoffice (& serverside app) was in NodeJS hosted on DigitalOcean Cloud",
+                "**Directional WiFi Scanner**: Also as a hobby of the previous client we did with ESP8266 - **Arduino** a servo controlled directional antennas to point at the better signal gain",
+                "**Traccar Clients Setup from Android** : Android app using Firebase Auth + Push Messaging to configure Traccar Android Client Apps (location senders)"
+
+            ]
+        },
+        {
+            "title": "SSr. IT Engineer",
             "year": "2020 (October)",
             "at": "MercadoLibre",
-            "description": "lorem impsum dolro sir amet sdlfjasdlfdslkfjdslkjsdlkfjlkfjdlskfjdsalkjfdaslkfdlkfjdslkfasjd"
+            "description": [
+                "Currently here! And its my first time in a big company, also at the time im writing this its been a year and a half",
+                "Techs are so many and info is overwhelming, since i started here i just captured the best SE practices of previous langs & frameworks, even learn new ones like **Go** (Great lang by the way) also in the university is started playing with iOS dev (**swift**, **objC**) although wasn't much i applied some of that in here & of course the usage of great tools like **NewRelic**, **Datadog**",
+                "**& even all that i realized the many things i left to know**"
+            ]
         }
     ]
 }
