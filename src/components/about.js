@@ -4,6 +4,7 @@ import pokemon from '../assets/pokemon.mp3'
 import Typed from 'typed.js'
 import React from 'react'
 import { gaEvent } from '../firebase/analytics'
+import config from '../config/default.json'
 
 /**
  * First page to show with info aboutMe
@@ -31,7 +32,7 @@ export default function AboutMe(props) {
         return () => { typed.current.destroy() }
     }, [])
 
-    const playPokemon = () => pokeAudio.current.play()
+    const playPokemon = () => config.shouldPlayPokemon && pokeAudio.current.play()
 
     return (
         <div className="AboutContainer">
