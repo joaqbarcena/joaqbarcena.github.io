@@ -3,6 +3,7 @@ import 'terminal.css'
 import pokemon from '../assets/pokemon.mp3'
 import Typed from 'typed.js'
 import React from 'react'
+import { gaEvent } from '../firebase/analytics'
 
 /**
  * First page to show with info aboutMe
@@ -48,9 +49,9 @@ export default function AboutMe(props) {
                 </div>
             </div>
             <div className='AboutCols'>
-                <a href='#timeline' type="button" class="btn btn-error AboutButtons">Timeline</a>
-                <a href='/#' type="button" class="btn btn-primary AboutButtons">Projects</a>
-                <a href='#contact' onClick={playPokemon} type="button" class="btn btn-default AboutButtons">Reach Me!</a>
+                <a href='#timeline' type="button" className="btn btn-error AboutButtons" onClick={ () => gaEvent('navigate_to/timeline') }>Timeline</a>
+                <a href='/#' type="button" className="btn btn-primary AboutButtons" onClick={ () => gaEvent('navigate_to/projects') }>Projects</a>
+                <a href='#contact' type="button" className="btn btn-default AboutButtons" onClick={ () => { gaEvent('navigate_to/reach_me'); playPokemon() } }>Reach Me!</a>
                 <audio ref={pokeAudio} src={pokemon}/>
             </div>
         </div>
