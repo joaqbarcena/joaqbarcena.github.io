@@ -10,10 +10,10 @@ export default function ContactMe(props) {
 
     return (
         <section id='contact' className='ContactContainer'>
-            <div class="icon-list">
-                <a href={gh} target='_blank' rel="noreferrer" ><i class="nes-icon github is-large"></i></a>
-                <a href={mail} target='_blank' rel="noreferrer" ><i class="nes-icon gmail is-large"></i></a>
-                <a href={In} target='_blank' rel="noreferrer" ><i class="nes-icon linkedin is-large"></i></a>
+            <div className="icon-list">
+                <a href={gh} target='_blank' rel="noreferrer" ><i className="nes-icon github is-large"></i></a>
+                <a href={mail} target='_blank' rel="noreferrer" ><i className="nes-icon gmail is-large"></i></a>
+                <a href={In} target='_blank' rel="noreferrer" ><i className="nes-icon linkedin is-large"></i></a>
             </div>
         </section>
     )
