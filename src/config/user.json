@@ -92,23 +92,23 @@
             "title": "Software Developer",
             "year": "2016",
             "at": "Nortid",
-            "description": "Mostly here i have used **Java** & **Swing** for and ABM POS Software also here i developed an Android App published to PlayStore that saves contacts by scanning a QR (VCard) - Qontacto"
+            "description": "Mainly here I have used **Java** & **Swing** for ABM POS software, I have also developed an Android app published on PlayStore that saves contacts by scanning a QR (VCard) - Qontacto"
         },
         {
             "title": "Software Developer",
             "year": "2016 (July)",
             "at": "InsideIT S.A.",
             "description": [
-                "Here i learned the most of my carreer path, since it was only me & my boss (also a good friend), Some of the stacks & techs we used",
+                "Here I learned most of my  career path, since it was just me and my boss (also a good friend), some of the stacks and technologies that we use",
                 "**GPS Tracking Client Android App:** [ Kotlin, Java, C++, Google Play Console ]",
                 "**ServerSide Apps (GPS Tracking):** J2EE -> Spring + RabbitMQ, **AWS EC2, IoT, DynamoDB, ElasticBeanstalk**, NodeJS, MySQL, Nginx",
                 "**GPS Device:** C-99, OpenWRT (GL-MiFi), Arduino (ESP8266-32)",
                 "**Scripting for Monitoring & Releasing:** Git Hooks, GH Actions, Python, Bash, Cron",
-                "**Reverse Engineering**: ByteCode decompiling & rewrite, Api discovery"
+                "**Reverse Engineering**: ByteCode decompiling & rewrite, clone from scratch Apis "
             ]
         },
         {
-            "title": "Software Developer Freelance",
+            "title": "Software Developer Freelancer",
             "year": "2020 (January)",
             "at": "Upwork",
             "description": [
